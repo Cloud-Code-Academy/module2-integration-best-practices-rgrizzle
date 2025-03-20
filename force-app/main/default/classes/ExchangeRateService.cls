@@ -16,12 +16,6 @@ public class ExchangeRateService {
      */
     public static ExchangeRateWrapper getLatestRates() {
         // TODO: Implement the method to make a callout to the Exchange Rate API
-        // 1. Create an HTTP request using the named credential
-        // 2. Set appropriate headers and method (GET)
-        // 3. Make the callout
-        // 4. Handle the response, including any errors
-        // 5. Deserialize the response into the wrapper class
-        // 6. Return the wrapper instance
         
         return null; // Replace with actual implementation
     }
@@ -33,11 +27,6 @@ public class ExchangeRateService {
      */
     public static List<Exchange_Rate__c> processRates(ExchangeRateWrapper rateData) {
         // TODO: Implement the method to process rates and create/update records
-        // 1. Create a list to hold the Exchange_Rate__c records
-        // 2. Iterate through the rates in the wrapper
-        // 3. For each rate, create or update an Exchange_Rate__c record
-        // 4. Use upsert to save the records
-        // 5. Return the list of processed records
         
         return null; // Replace with actual implementation
     }
